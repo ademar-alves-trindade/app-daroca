@@ -7,3 +7,4 @@ langsmith==0.1.129
 langchain-openai
 langchain-community
 langchain_experimental
+openpyxl
