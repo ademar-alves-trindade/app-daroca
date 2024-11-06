@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 # Carrega as variáveis de ambiente do arquivo .env
-load_dotenv()
+load_dotenv(override=True)
 
 # Verificação da chave de API
 openai_api_key = os.getenv("OPENAI_API_KEY")  # Busca a chave do ambiente
